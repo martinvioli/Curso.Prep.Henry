@@ -1,0 +1,13 @@
+Variables = Las variables en Javascript se utilizan para almacenar información que se usara más tarde en el codigo. Es decir, nosotros creamos
+una variable con un determinado valor para guardar un/unos dato/s que sabemos que volveremos a utilizar en el codigo más tarde.
+Strings = String (que en español significa hilo) se refiere a justamente unir (como si fuera un hilo) caracteres, que pueden indicar no necesariamente una palabra, sino también un
+simbolo, número, etc. En Javascript el "string" es un tipo de dato.
+Funciones (argumentos y "return") = Una función en Javascript nos permite ejecutar un codigo o una secuencia de codigos especificas para esa función. Los argumentos
+(que van entre parentesis inmediatamente despues del nombre de la función) crean variables sin valor que podran ser utilizadas unicamente dentro de la función, y que luego podemos
+asignarle los valores que deseemos. Esto se relaciona con el término "Scope".
+El término "Return" se utiliza para retornar al usuario cierto dato o valor que se encuentra dentro de una función (ya que las variables dentro de una función no son mostrables
+con console.log porque recordemos que son propias de la función). Además, cuando la función llega a la linea de "Return", corta inmediatamente la lectura y devuelve el dato
+en el que se encuentra, por lo que aquello que este debajo no sera ejecutado.
+Declaracion "IF" = la palabra clave "IF" es un control de flujo. Es decir, le indica a nuestra función verificar cierto dato a través de una comparación (en codigo), y detener
+la lectura allí en caso de que sea correcto, o continuar leyendo en caso de que no lo sea. Justamente para comparar se utilizan los operadores de comparación.
+Valores booleanos = son los valores true y false que provienen de la logica Booleana. Se pueden utilizar para multiples funciones y variables en javascript.
