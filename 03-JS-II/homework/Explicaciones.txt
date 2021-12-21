@@ -1,0 +1,6 @@
+For = lo utilizamos para crear bucles con un condicional (o sea con un operador de comparación). El bucle ejecutara un codigo constantemente mientras que el condicional
+de true. En el momento en el que de false, se detiene el bucle. Para esto siempre es necesario agregar un operador como el ++, de lo contrario el bucle sera infinito
+y crasheara el nav.
+`&&`, `||`, `!` = son operadores de logica. Nos permiten agregar más de una condicion en un operador de flujo. Por ejemplo: si yo quiero un if que de true
+cuando se cumpla X condicion y Y condicion, debo usar "&&". "||" si quiero que de true cuando almenos uno de las condiciones se cumpla. Y "!" para cuando quiero lo opuesto
+a la condición.
