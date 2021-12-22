@@ -1,0 +1,2 @@
+Arrays = Los arrays en javascript nos permiten almacenar varios datos
+(y tipos de datos) dentro de una misma variable. 
