@@ -1,0 +1,9 @@
+	* Objetos = los objetos permiten guardar mucha info sobre una misma cosa. En un objeto definimos propiedades y valores para estas (el valor puede ser
+    casi cualquier otra cosa, ya sea valor booleano, str, number, functions, otro objeto, array, etc).
+	* Propiedades = serian las 'key'. Disponen una caracteristica de un objeto que puede adquirir distintos valores dentro de un mismo tipo de caracteristica.
+    ejemplo; en el objeto manzana tenemos la propiedad color, que puede adquirir el valor verde o roja.
+	* Métodos = se llama metodos a las funciones que definimos dentro de un objeto
+	* Bucle `for…in` = similar al funcionamiento del bucle for en los array, pero en este caso, nos permite conocer las propiedades (sus nombres)
+    de un objeto, ya sea si queremos solo conocer sus nombres o si queremos conocer su nombre junto a su valor.
+	* Notación de puntos vs notación de corchetes = la diferencia reside en que en corchetes tambien podemos llamar a una variable que
+    refiera a una cadena o numero de propiedad de un objeto.
