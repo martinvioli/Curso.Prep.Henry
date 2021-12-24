@@ -1,0 +1,6 @@
+* `prototype` = el prototype nos permite "compartir" una funcion entre miles de objetos de clase, sin tener que repetirla miles de veces en el codigo
+lo cual representa una carga de memoria para el dispositivo.
+* _Constructors_ (de Clases) = una clase y un constructor es lo que permite crear 'plantillas' de objetos. De esta manera, si queremos crear
+miles de objetos de un mismo tipo (ejemplo: en una base de datos que contiene usuarios de un foro). Cada objeto es igual ya que contiene las mismas propiedades
+pero con distintos valores, entonces en vez de crear y repetir miles de veces cada objeto, se crea una plantilla o un constructor, a partir del cual
+podemos crear objetos con mismas propiedades pero distintos valores.)
