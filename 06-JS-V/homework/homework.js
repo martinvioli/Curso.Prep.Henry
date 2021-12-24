@@ -40,7 +40,7 @@ function agregarStringInvertida() {
   String.prototype.reverse = function() {
     var palabraInvertida = '';
     for (var i = this.length - 1; i >= 0; i--){
-        palabraInvertida = palabraInvertida + this.charAt[i]
+        palabraInvertida = palabraInvertida + this.charAt(i)
     }
     return palabraInvertida
     }
