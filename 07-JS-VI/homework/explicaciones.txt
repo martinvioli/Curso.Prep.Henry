@@ -1,0 +1,3 @@
+Funciones Callback = el callback nos permite usar como argumento una funcion dentro de 
+otra funcion, y al mismo tiempo usar uno de los argumentos pasados en la funcion original dentro
+de la funcion callback.
