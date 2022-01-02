@@ -1,0 +1,37 @@
+h1 {
+	color: red;
+}
+
+img {
+	width: 400px;
+}
+
+#thirdDiv {
+	width: 500px;
+	height: 600px;
+	background-color: skyblue;
+	border: 20px ridge red;
+	box-sizing: border-box;
+}
+
+.divClass {
+
+}
+
+#spanId {
+	font-size: 18px;
+	margin: 50px;
+}
+
+body {
+	background-image: url("https://videohive.img.customer.envatousercontent.com/files/201733402/image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=9c43e998ff00950a0c6ab2e919472248");
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	text-align: center;
+
+}
+
+
