@@ -24,7 +24,7 @@
 
 .wave2 {
     position: absolute;
-    top: 16px;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -33,9 +33,8 @@
 }
 
 .Texto {
-	text-align: left;
-	margin-left: auto;
-	display: block;
+	display: flex;
+	flex-direction: column;
 	position: relative;
 }
 
@@ -47,6 +46,8 @@
 
 body {
 	font-family: Tahoma;
+	display: flex;
+	flex-direction: column;
 }
 
 .Titulo , .Why h2 span{
