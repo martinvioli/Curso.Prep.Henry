@@ -1,0 +1,27 @@
+.Imagen {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: flex;
+	top: 16px;
+	left: 41%;
+	border-radius: 25px;
+}
+
+.wave {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.Texto {
+	text-align: left;
+	margin-left: 18%;
+}
+
+.Titulo , .Presentacion , .Why {
+	text-align: center;
+}
