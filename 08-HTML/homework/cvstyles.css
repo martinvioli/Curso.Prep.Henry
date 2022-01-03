@@ -1,16 +1,29 @@
 .Imagen {
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	display: flex;
-	top: 16px;
-	left: 41%;
-	border-radius: 25px;
+	max-height: 200px;
+	max-width: 200px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 60%;
+	border-color: black;
+	border-style: solid;
+	margin-top: 0;
 }
 
 .wave {
-    position: relative;
+    position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave2 {
+    position: absolute;
+    top: 16px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -19,9 +32,18 @@
 
 .Texto {
 	text-align: left;
-	margin-left: 18%;
+	margin-left: auto;
 }
 
 .Titulo , .Presentacion , .Why {
 	text-align: center;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+.Titulo , .Why h2 span{
+	-webkit-text-stroke: 1.5px black;
+	color: rgb(228, 228, 8)
 }
